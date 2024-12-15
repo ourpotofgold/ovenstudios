@@ -1,0 +1,195 @@
+header {
+    height: auto;
+}
+
+.header {
+    
+    height: auto;
+    
+}
+
+
+
+.logo {
+    
+    float: left;
+    position: relative;
+    
+    
+    
+}
+
+
+
+nav {
+    height: 50px;
+    width: 800px;
+    float: left;
+    margin: 0 100px;
+    
+}
+
+
+
+.soon h1 {
+    
+    font-size: 8em;
+    text-align: center;
+    color: wheat;
+    text-shadow: 5px 5px 10px #171616 ;
+    animation: textcolor 15s ease infinite;
+    
+}
+.soon { -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);}
+
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+
+@keyframes textcolor {
+    
+        
+    0% {
+        color:#ff8989; 0% 50%;
+        
+    }
+        
+    50% {
+        
+       color:#6a6254;: 100% 50%;
+        
+    }
+    
+    100% {
+       color:#ff8989; 0% 50%;
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #1a1e21;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: auto;
+    font-size: .75em;
+}
+
+
+
+ul li {
+    
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+    
+    
+}
+ol {
+    
+    list-style: none;
+    float: left;
+    margin: 0 2px;
+    
+}
+
+/* unvisited link */
+a:link {
+    color: #02be02;
+}
+
+/* visited link */
+a:visited {
+    color: #b4c30b;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ff6c00;
+    font-size: 1.05em;
+    border: solid 1px rgba(92, 185, 0, 0.5);
+    padding: 2px;
+}
+
+/* selected link */
+a:active {
+    color: #8d773e;
+}
+
+
+#page {
+    float: left;
+    max-width: inherit;
+    height: auto;
+    
+    
+}
+
+
+body {
+background-image: url(../images/body_bg3.jpg);
+     background-color: #221715;
+    background-repeat: no-repeat;
+font-family: 'Raleway', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Muli', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    color: #e5e5dc;
+    width: 1080px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    
+animation: bganimation 60s ease infinite;
+    
+}
+
+
+@keyframes bganimation {
+        
+    0% {
+        background-position: 0% 50%;
+        
+    }
+        
+    50% {
+        
+        background-position: 100% 50%;
+        
+    }
+    
+    100% {
+        background-position: 0% 50%;
+        
+    }
+       
+    
+    }
+
+
+
+
+
+
+
+
+

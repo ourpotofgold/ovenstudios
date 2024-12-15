@@ -1,0 +1,195 @@
+/* about css */
+/* 234 x 166  picture dimensions in image container*/
+
+header {
+   background: linear-gradient(-155deg, #140904, rgba(80, 76, 76, 0.35) );
+    float: left;
+    width: 100%;
+    
+    
+}
+
+
+header img {
+    position: absolute;
+    width: auto;
+}
+
+
+nav {
+    float: left;
+    color: aliceblue;
+    padding: 0 100px 0 100px;
+    
+}
+
+.welcome {
+     background-image: url(../images/body_bg2.jpg);
+      background-size:cover;
+    float: left;
+    text-align: center;
+    
+}
+
+.abt {
+    text-align: justify;
+     padding: 10px;
+    
+}
+
+
+.founders {
+    background-color: rgba(25, 34, 42, 0.80);
+    float: left;
+    text-align: center;
+    height: auto;
+    
+}
+
+
+
+.founders img {
+    background-color: rgba(25, 34, 42, 0.80);
+    float: left;
+    text-align: center;
+    height: auto;
+    width: 15%;
+    margin: 0 20px
+    
+}
+
+
+.works {
+    background-color: rgba(22, 25, 34, 0.6);
+    float: left;
+    width: 100%;
+   height: auto;
+    text-align: center;
+}
+
+
+.products {
+    background-color: rgba(22, 25, 34, 0.6);
+    width: 100%;
+   height: auto;
+}
+
+
+
+
+.products img:hover {
+    width:auto;
+    padding: 0 5px;
+    background-color: rgba(165, 204, 135, 0.45);
+    box-shadow:0 0 5px 0;
+    transition: all .3s;
+}
+
+
+
+.socials {
+    float: right;
+    width: 3%;
+    padding: 0 12px;
+    
+    
+}
+
+.socials img {
+    float: right;
+    height: auto;
+    width:100%;
+    padding: 0 12px;
+    
+    
+}
+
+
+.the_team {
+    
+    float: left;
+    background-color: #20262a;
+    width: 100%;
+}
+
+
+
+
+.footer {
+    background-color: #20262a;
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: .75em;
+    
+    
+}
+
+
+
+ul li {
+    
+    list-style: none;
+    margin: 0 25px;
+    float: left
+    
+}
+
+
+
+a:link {
+    color: #7e8d3f;
+    text-decoration: none;
+}
+a:visited {
+    color: #b7cc5e;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #7e8d3f;
+    font-size: 1.02em;
+    transition: all 0.2s;
+}
+
+a:active {
+	color: #b1c65a;
+	
+}
+
+
+
+
+
+
+
+
+
+#page{
+    margin: 0 auto ;
+    width: 100%;
+    max-width: inherit;
+}
+
+
+
+body {
+    background-image: url(../images/body_bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-color: #1e1f1f;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Muli', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Quicksand', sans-serif;
+    width:100% ;
+    height: auto;
+    margin: auto;
+    font-size: 24px;
+    color: #d0cdcd;
+    max-width: 1080px;
+    
+}
